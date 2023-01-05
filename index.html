@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <link rel="shortcut icon" href="img/koreadokod-logo.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/jquery-3.6.2.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+   
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/koreadokod-logo.png" alt="logo">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">소개</a>
+                        <ul class="sub">
+                            <div class="sub_title">소개</div>
+                            <div class="sub_menu">
+                                <li><a href="#">재단</a></li>
+                                <li><a href="#">경영</a></li>
+                                <li><a href="#">공시</a></li>
+                            </div>
+                            <div class="sub_img">
+                                <img src="img/bg.jpg" alt="sub_meun_bg">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">알림마당</a> 
+                            <ul class="sub">
+                                <div class="sub_title">알림마당</div>
+                                <div class="sub_menu">
+                                    <li><a href="#">재단</a></li>
+                                    <li><a href="#">정보</a></li>
+                                    <li><a href="#">고객광장</a></li>
+                                    <li><a href="#">윤리</a></li>
+                                
+                                </div>
+                                <div class="sub_img">
+                                    <img src="img/bg1.jpg" alt="sub_menu_bg">
+                                </div>
+                            </ul>
+                    </li>
+                    <li>
+                        <a href="#">사업</a> 
+                            <ul class="sub">
+                                <div class="sub_title">사업</div>
+                                    <div class="sub_menu">
+                                    <li><a href="#">플랫폼</a></li>
+                                    <li><a href="#">홍보</a></li>
+                                    <li><a href="#">콘텐츠 개발</a></li>
+                                    <li><a href="#">문화행사</a></li>
+                            
+                                </div>
+                            <div class="sub_img">
+                                <img src="img/bg2.jpg" alt="sub_meun_bg">
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">현황</a>
+                            <ul class="sub">
+                                <div class="sub_title">현황</div>
+                                    <div class="sub_menu">
+                                    <li><a href="#">정부</a></li>
+                                    <li><a href="#">일반</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">관리</a></li>
+                                    
+                                </div>
+                                <div class="sub_img">
+                                    <img src="img/bg3.jpg" alt="sub_meun_bg">
+                                </div>
+                            </ul>
+                    </li>
+                    <li>
+
+                        <a href="#">자료실</a>
+                            <ul class="sub">
+                                <div class="sub_title">자료실</div>
+                                <div class="sub_menu">
+                                    <li><a href="#">사진</a></li>
+                                    <li><a href="#">영상</a></li>
+                                    <li><a href="#">자료</a></li>
+                                    <li><a href="#">메거진</a></li>
+                                    <li><a href="#">홍보관</a></li>
+                                </div>    
+                                
+                                
+                                <div class="sub_imb">
+                                    <img src="img/bg4.jpg" alt="">
+                                </div>
+                        </ul> 
+                    </li>
+            </nav>    
+
+            <div class="right_menu">
+                <div class="my_page">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>  
+            <div class="menu">
+                <a href="#">
+                    <img src="img/ham_icon.png" alt="">
+                </a>
+            </div>
+    </header>
+    <div class="wrap" id="fullpage">
+        <section class="section main_slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main1">
+                        <div class="main_text">
+                            <h1>독도</h1><br>
+                            <p>한반도의 아침이 시작되는 최동단</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide main2">
+                        <div class="main_text">
+                            <h1>독도</h1><br>
+                            <p>우리가 지켜나가야 할 우리 땅</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide main3">
+                        <div class="main_text">
+                            <h1>독도</h1><br>
+                            <p>천연 기념물 제336호 문화 예술의 섬입니다</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>      
+        </section>
+
+        <section class="section product">
+            <h1>notice</h1>
+                <!--tab mame-->
+                <div class="tab">
+                    <div class="tab_title">
+                        <ul>
+                            <li class="active"><a href="#">notice</a></li>
+                            <li><a href="#">event</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_con">
+                        <div class="tab_con1">
+                            <div class="swiper notice">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <h3><b>코로나바이러스 감염증19</b></h3>
+                                            <p>예방접종</p>
+                                            <br>
+                                            <p>진료센터</p>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <h3><b>국민권익위원회</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>농촌 일손 돕기</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>게시판</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>sns</b></h3>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+                        <div class="tab_con2">
+                            <div class="swiper event">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <h3><b>코로나바이러스 감염증19</b></h3>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <h3></b>국민권익위원회</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>농촌 일손 돕기</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>게시판</b></h3>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <h3><b>sns</b></h3>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                           </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="section notice">
+            <h1>magazine</h1>
+                <div class="magazine">
+                <div class="swiper magazine1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/2019_11.png" alt="magazine">
+                            <div class="magazine_text"><p>2019.11</p></div>
+                        </a>
+                        
+                    </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <img src="img/2019_5.png" alt="magazine">
+                            <div class="magazine text"><p>2020.8</p></div>
+                        </a>
+                      </div>
+                 
+                 
+                        <div class="swiper-slide">
+                          <a href="#">
+                              <img src="img/2020_12.png" alt="magazine">
+                              <div class="magazine_text"><p>2020.12</p></div>
+                          </a>
+                          
+                      </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-scrollbar"></div>
+                          <a href="#">
+                              <img src="img/2020_8.png" alt="magazine">
+                              <div class="magazine_text"><p>2020.8</p></div>
+                          </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/2021_12.png" alt="magazine">
+                                <div class="magazine_text"><p>2021.12</p></div>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/2021_8.png" alt="magazine">
+                                <div class="magazine_text"><p>2021.8</p></div>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/2022_12.png" alt="magazine">
+                                <div class="magazine_text"><p>2022.12</p></div>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="img/2022_8.png" alt="magazine">
+                                <div class="magazine_text"><p>2022.8</p></div>
+                            </a>
+                          </div>
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    <div class="swiper-scrollbar"></div>
+                  </div>           
+                       
+        </section>
+
+        <section class="section maps">
+            <div class="map">
+                <h1>MAP</h1>
+                <div class="ulleungdo">
+                    <a href="#"><img src="img/ulleungdo.png" alt="unlleungdo"></a>
+                    <a href="#"><span>울릉도</span></a>
+                </div>
+            </div>
+            <div class="map">
+                <div class="dokdo">
+                    <a href="#"><img src="img/koreadokdo.png" alt="dokdo"></a>
+                    <a href="#"><span>독도</span></a>
+                </div>
+            </div>
+        </section>    
+            
+      
+
+        <section class="section video">
+            <div class="marquee">
+                <div class="marquee_box">
+                    <span>dokdo dokdo dokdo</span>
+                    <span>dokdo dokdo dokdo</span>
+                </div>
+            </div>
+            <h1>video</h1>
+            <div class="youtube">
+                <iframe width="100%" height="100%" 
+                src="https://www.youtube.com/embed/0TOqJYx6MFY" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <h3>여기는 독도 영상입니다</h3>
+            </div>
+        </section>
+
+         <section class="section follow">
+            <h1>review</h1>
+            
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/re.jpg" alt="">
+                        </a>
+                    </li>
+                        <li>
+                        <a href="#">
+                            <img src="img/re1.png" alt="review">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/re2.png" alt="review">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/re3.png" alt="review">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/re5.jpg" alt="review">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/re6.png" alt="review">
+                        </a>
+                    </li>
+                </ul>
+         </section>  
+         
+         <footer class="section fp-auto-height">
+            <div class="marquee">
+                <div class="marquee_box">
+                    <span>dokdo dokdo dokdo</span>
+                    <span>dokdo dokdo dokdo</span>
+
+                </div>
+            </div>
+            <div class="f_wrap">
+                <div class="f_top">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                        <li><a href="#">불법신고</a></li>
+                    </ul>
+                </div>
+                <div class="f_bottom">
+                    <div class="f_logo">
+                        <img src="img/koreadokdo-f_logo.png" alt="f_logo">
+                    </div>
+               
+                    <div class="sns">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                <img src="img/facebook.png" alt="facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                <img src="img/instragram.jpg" alt="instragram">
+                            </a>
+                            </li>
+                    </div>
+                    <address>
+                        우) 37751 경상북도 포항시 북구 중흥로 231 동양빌딩 9층<br>
+                        이메일 : dokdo@koreadokdo.or.kr<br>
+                        대표번호 : 054-272-6513<br>
+                        팩스번호 : 054-272-6515 
+                    </address>
+                </div>
+            </div>
+            <small>
+                COPYRIGHT 2019. BY 재단법인 독도재단. ALL RIGHTS RESERVED.
+            </small>
+         </footer>
+    </div>
+    <div class="popup_menu">
+        <div class="close_btn">
+            <a href="#">
+                <img src="img/x.png" alt="닫기">
+            </a>
+        </div>
+        <h3>더 많은 독도재단 소식을 만나보세요</h3>
+        <div class="buttons">
+            <ul>
+                <li><a href="#">join us</a></li>
+                <li><a href="#">login</a></li>
+            </ul>
+        </div>
+        <div class="popup_nav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">소개</a>
+                        <ul class="sub">
+                            <div>
+                                <li><a href="#">재단</a></li>
+                                <li><a href="#">경영</a></li>
+                                <li><a href="#">공시</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>      
+                        <a href="#">알림마당</a> 
+                        <ul class="sub">
+                            <div>
+                                <li><a href="#">재단</a></li>
+                                <li><a href="#">정보</a></li>
+                                <li><a href="#">고객광장</a></li>
+                                <li><a href="#">윤리</a></li>
+                            </div>
+                        </ul>
+                    </li>  
+                    <li>
+                        <a href="#">사업</a> 
+                        <ul class="sub">
+                            <div>
+                                <li><a href="#">플랫폼</a></li>
+                                <li><a href="#">홍보</a></li>
+                                <li><a href="#">콘텐츠 개발</a></li>
+                                <li><a href="#">문화행사</a></li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">햔황</a>
+                        <ul class="sub">
+                            <div>
+                                <li><a href="#">정부</a></li>
+                                <li><a href="#">일반</a></li>
+                                <li><a href="#">역사</a></li>
+                                <li><a href="#">관리</a></li>
+                            </div>
+                        </ul>    
+                    </li>
+                    <li>
+                        <a href="#">자료실</a>
+                        <ul class="sub">
+                            <div>
+                                <li><a href="#">사진</a></li>
+                                <li><a href="#">영상</a></li>
+                                <li><a href="#">자료</a></li>
+                                <li><a href="#">메거진</a></li>
+                                <li><a href="#">홍보관</a></li>
+                            </div>
+                        </ul>   
+                    </li>
+                </ul>
+            </nav>                         
+        </div>
+        <div class="popup_follow">
+            <h4>follow us</h4>
+            <div class="popup_sub">
+                <ul>
+                    <li><a href="#">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>
+                     </li>
+                     <li><a href="#">
+                        <img src="img/instragram.jpg" alt="instragram">
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
